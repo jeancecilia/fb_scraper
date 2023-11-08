@@ -1,0 +1,22 @@
+#################
+ENVIRONMENT SETUP
+#################
+
+    - Development Environment: vscode
+    - Programming Language: Python
+    - Library: Selenium
+
+########################
+DATA COLLECTION STRATEGY
+########################
+    1. Read given groups urls from input file 
+    2. Load Public Facebook group on the basis of given URL
+    3. Scrape required details from loaded group
+    4. Store data in excel file
+    5. Repeat the steps 2,3,4 for all given urls
+
+###################
+
+URL FOR SORTING GROUP POSTS:
+
+https://www.facebook.com/groups/usamaphotography?sorting_setting=CHRONOLOGICAL

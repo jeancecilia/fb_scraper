@@ -1,0 +1,26 @@
+Title:
+
+    Public Facebook Groups Scraper
+
+Task:
+
+    - Scrape Public Facebook Groups according to Filter Mechanism, Output Data
+
+    - User enters facebook group domain or domains he wants to run the bot on.
+
+    - Data to Scrape (Posts of the last 72 hours only):
+
+        - Post Url
+        - Post Images
+        - Post Content
+        - Post Author
+        - Contact Details
+        - Number or Line sID
+
+    - Rules/filters shall be predetermined
+
+        1. If the author has published a post with other content within the last 7 days, then it should be filtered out. This post is not relevant. With other content means completely different content. 
+
+        2. The keywords to be filtered out (i.e. if the post contains these keywords, it will not be extracted) are set by the admin beforehand. Not from the customer) I must be able to change this logic. 
+
+        3. Profile Check: Does the Authors Profile include Keywords &gt; XYZ"This is predeterminate. If the post author includes in his user profile the keywords "Agent", "Real Estate", "Property", "Realtor" or any Combination or Longtail Keyword of that. Like "Real Estate XYZ"
